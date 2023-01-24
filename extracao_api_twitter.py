@@ -3,7 +3,7 @@ import requests
 import json
 import os
 
-#montando url
+# Criado a estrutura url 
 TIMESTAMP_FORMAT = "%Y-%m-%dT%H:%M:%S.00Z"
 
 end_time = datetime.now().strftime(TIMESTAMP_FORMAT)
